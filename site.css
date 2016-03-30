@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+font-size: 16px;
+background-color:#FFE6E7;
+padding:3px;}
+#main{ padding: 5px;
+padding-left:15px;
+padding-right:15px;
+background-color:#fffff;
+border-radius:0 0 5px 5px;}
+h1{font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+border-bottom: 3px solid #cc9900;
+color:#996600;
+font-size:30px;
+}
+table { width: 100%;}
+table, th, td { border: 1px solid grey;
+border-collapse: coollapse;
+padding: 5px;}
+th { text-align: left;}
+table tr:nth-child(odd){ background-color:#f1f1f1;}
+table tr:nth-child(even) { background-color:#ffffff;}
+ul#menu{ padding:0; margin-bottom: 11px;}
+ul#menu li{ display:inline; margin-right:3px;}
+ul#menu li a {background-color:#ffffff; padding: 10px 20px; text-decoration:none; color:#696969; border-radius: 4px 4px 0 0;}
+ul#menu li a:hover{ color: while; background-color:black;}
